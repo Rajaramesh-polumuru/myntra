@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* 
 .container {
   color: rgb(0, 0, 0);
   top: 0;
@@ -37,7 +37,7 @@
   -webkit-box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
   background-color: #fff;
-}
+} */
 .nvbar {
   padding: 0 17px 28px;
   text-align: left;
@@ -71,4 +71,101 @@
 }
 .search {
   float: right;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 400px;
+  width: 210px;
+  border-radius: 10px;
+}
+.cards .card_header {
+  position: relative;
+  z-index: 3;
+  background: #fff;
+  padding: 0 10px;
+  height: 85px;
+  margin-top: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main_content {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 60px auto;
+  max-width: 800px;
+}
+.cards .card_img {
+  position: relative;
+  z-index: 3;
+  background: #fff;
+  border-radius: 10px;
+  height: 280px;
+  width: 210px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.price {
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 500;
+}
+h4 {
+  margin-top: 0px 0px 6px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.product-product {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+p.price {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 14px;
+}
+
+.card_header {
+  background-color: #fafafc;
+  height: 12em;
+  width: 12em;
+  position: absolute;
+  bottom: 0em;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+.property-social-icons {
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.main_content:hover .card_header {
+  height: 0em;
+  padding: 0px 1em;
+}
+.main_content:hover .card_img {
+  height: 20em;
+  width: 14em;
 }

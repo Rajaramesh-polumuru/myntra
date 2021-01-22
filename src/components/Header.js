@@ -1,5 +1,6 @@
 import React from "react";
 import ShoppingCartRoundedIcon from "@material-ui/icons/ShoppingCartRounded";
+import SearchIcon from "@material-ui/icons/Search";
 function Header() {
   return (
     <nav className="nvbar">
@@ -14,6 +15,7 @@ function Header() {
         </ul>
         <div className="search">
           <ShoppingCartRoundedIcon />
+          <SearchIcon />
         </div>
       </div>
     </nav>
