@@ -4,6 +4,7 @@ const productCard = [
     name: "HIGHLANDER",
     thumbnail: "https://tinyurl.com/yxrqdd4h",
     type: "Men",
+    cart: false,
     price: "454",
   },
   {
@@ -11,6 +12,7 @@ const productCard = [
     name: "HERE&NOW",
     thumbnail: "https://tinyurl.com/y3rj6xtg",
     type: "Men",
+    cart: false,
     price: "824",
   },
   {
@@ -18,6 +20,7 @@ const productCard = [
     name: "Roadster",
     thumbnail: "https://tinyurl.com/y2nkk6tx",
     type: "Men",
+    cart: false,
     price: "934",
   },
   {
@@ -25,6 +28,7 @@ const productCard = [
     name: "Dennis Lingo",
     thumbnail: "https://tinyurl.com/y42f9t27",
     type: "Men",
+    cart: false,
     price: "554",
   },
   {
@@ -32,6 +36,7 @@ const productCard = [
     name: "People",
     thumbnail: "https://tinyurl.com/y4uqz32h",
     type: "Men",
+    cart: false,
     price: "999",
   },
   {
@@ -39,6 +44,7 @@ const productCard = [
     name: "HERE&NOW",
     thumbnail: "https://tinyurl.com/y4qub8h4",
     type: "Men",
+    cart: false,
     price: "1044",
   },
   {
@@ -46,6 +52,7 @@ const productCard = [
     name: "Nautica",
     thumbnail: "https://tinyurl.com/y5rj6wgr",
     type: "Men",
+    cart: false,
     price: "1399",
   },
   {
@@ -53,6 +60,7 @@ const productCard = [
     name: "WROGN",
     thumbnail: "https://tinyurl.com/yyqnonpa",
     type: "Men",
+    cart: false,
     price: "1264",
   },
   {
@@ -60,6 +68,7 @@ const productCard = [
     name: "Roadster;",
     thumbnail: "https://tinyurl.com/yxtdo6ry",
     type: "Men",
+    cart: false,
     price: "494",
   },
   {
@@ -67,6 +76,7 @@ const productCard = [
     name: "Roadster",
     thumbnail: "https://tinyurl.com/y2car4cy",
     type: "Women",
+    cart: false,
     price: "419",
   },
   {
@@ -74,6 +84,7 @@ const productCard = [
     name: "DOROTHY PERKINS",
     thumbnail: "https://tinyurl.com/y382pkxa",
     type: "Women",
+    cart: false,
     price: "1813",
   },
   {
@@ -81,6 +92,7 @@ const productCard = [
     name: "People",
     thumbnail: "https://tinyurl.com/y3btatuk",
     type: "Women",
+    cart: false,
     price: "699",
   },
   {
@@ -88,6 +100,7 @@ const productCard = [
     name: "Roadster",
     thumbnail: "https://tinyurl.com/yxcoz8zk",
     type: "Women",
+    cart: false,
     price: "439",
   },
   {
@@ -95,6 +108,7 @@ const productCard = [
     name: "DOROTHY PERKINS",
     thumbnail: "https://tinyurl.com/yydyyg7t",
     type: "Women",
+    cart: false,
     price: "1534",
   },
   {
@@ -102,6 +116,7 @@ const productCard = [
     name: "Mystere Paris",
     thumbnail: "https://tinyurl.com/y3cldrl3",
     type: "Women",
+    cart: false,
     price: "799",
   },
   {
@@ -109,6 +124,7 @@ const productCard = [
     name: "People",
     thumbnail: "https://tinyurl.com/y24qfnhd",
     type: "Women",
+    cart: false,
     price: "699",
   },
   {
@@ -116,6 +132,7 @@ const productCard = [
     name: "Roadster",
     thumbnail: "https://tinyurl.com/y3owjcoz",
     type: "Women",
+    cart: false,
     price: "720",
   },
   {
@@ -123,6 +140,7 @@ const productCard = [
     name: "Roadster",
     thumbnail: "https://tinyurl.com/y2bh64k8",
     type: "Women",
+    cart: false,
     price: "594",
   },
   {
@@ -130,6 +148,7 @@ const productCard = [
     name: "Kids Clan",
     thumbnail: "https://tinyurl.com/yy4ja2dj",
     type: "boys",
+    cart: false,
     price: "587",
   },
   {
@@ -137,6 +156,7 @@ const productCard = [
     name: "United Colors of Benetton",
     thumbnail: "https://tinyurl.com/y52ust6x",
     type: "boys",
+    cart: false,
     price: "879",
   },
   {
@@ -144,6 +164,7 @@ const productCard = [
     name: "GAP",
     thumbnail: "https://tinyurl.com/yy7xyj44",
     type: "boys",
+    cart: false,
     price: "799",
   },
   {
@@ -151,6 +172,7 @@ const productCard = [
     name: "United Colors of Benetton",
     thumbnail: "https://tinyurl.com/y2wvfs6z",
     type: "boys",
+    cart: false,
     price: "879",
   },
   {
@@ -158,6 +180,7 @@ const productCard = [
     name: "Palm Tree",
     thumbnail: "https://tinyurl.com/y5pzrytr",
     type: "boys",
+    cart: false,
     price: "719",
   },
   {
@@ -165,6 +188,7 @@ const productCard = [
     name: "Mango Kids",
     thumbnail: "https://tinyurl.com/y5afbsfg",
     type: "boys",
+    cart: false,
     price: "1112",
   },
   {
@@ -172,6 +196,7 @@ const productCard = [
     name: "max",
     thumbnail: "https://tinyurl.com/y5qf77lj",
     type: "boys",
+    cart: false,
     price: "384",
   },
   {
@@ -179,6 +204,7 @@ const productCard = [
     name: "Gini and Jony",
     thumbnail: "https://tinyurl.com/y4sj6cq5",
     type: "boys",
+    cart: false,
     price: "649",
   },
   {
@@ -186,6 +212,7 @@ const productCard = [
     name: "Pepe Jeans",
     thumbnail: "https://tinyurl.com/yy2vrn97",
     type: "boys",
+    cart: false,
     price: "749",
   },
 ];

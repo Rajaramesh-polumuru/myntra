@@ -4,6 +4,9 @@ import All from "./MainContent";
 import Boys from "./Boys";
 import Men from "./Men";
 import Women from "./Women";
+import Cart from "./Cart";
+import ShoppingCartRoundedIcon from "@material-ui/icons/ShoppingCartRounded";
+
 export default function FilterBar() {
   return (
     <Router>
@@ -31,6 +34,12 @@ export default function FilterBar() {
                 Boys
               </Link>
             </li>
+            <li>
+              <Link className="link" to="/Cart">
+                <ShoppingCartRoundedIcon />
+                Cart
+              </Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -45,6 +54,9 @@ export default function FilterBar() {
           </Route>
           <Route exact path="/Boys">
             <Boys />
+          </Route>
+          <Route exact path="/Cart">
+            <Cart />
           </Route>
         </Switch>
       </div>

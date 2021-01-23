@@ -1,5 +1,5 @@
 import React from "react";
-import ShoppingCartRoundedIcon from "@material-ui/icons/ShoppingCartRounded";
+
 import SearchIcon from "@material-ui/icons/Search";
 import Logo from "./logo.png";
 function Header() {
@@ -16,7 +16,6 @@ function Header() {
           <li>OFFERS</li>
         </ul>
         <div className="search">
-          <ShoppingCartRoundedIcon />
           <input type="text" placeholder="Search.." />
           <SearchIcon />
         </div>

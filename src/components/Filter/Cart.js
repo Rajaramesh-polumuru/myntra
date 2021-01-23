@@ -1,8 +1,8 @@
 import React from "react";
 import productCard from "../../data/ProductData";
-const Boys = () => {
+const Cart = () => {
   const listItems = productCard
-    .filter((cat) => cat.type === "boys")
+    .filter((cat) => cat.cart === true)
     .map((item) => (
       <div key={item.id}>
         <div className="cards">
@@ -11,15 +11,7 @@ const Boys = () => {
             <h4>{item.productName}</h4>
             <p className="product-product">{item.name}</p>
             <p className="price">Rs.{item.price}</p>
-            <div
-              className="btn"
-              onClick={() => {
-                item.cart = !item.cart;
-                console.log(item.cart);
-              }}
-            >
-              Wishlist
-            </div>
+            <div className="btn">Buy</div>
           </div>
         </div>
       </div>
@@ -28,4 +20,4 @@ const Boys = () => {
   return <div className="main_content">{listItems}</div>;
 };
 
-export default Boys;
+export default Cart;

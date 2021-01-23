@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div className="footer">
       <div className="search">
-        <i className="fa fa-search">fb</i>
-        <i className="fa fa-shopping-basket">insta</i>
+        {/* <i className="fa fa-search">fb</i>
+        <i className="fa fa-shopping-basket">insta</i> */}
       </div>
     </div>
   );
