@@ -1,11 +1,13 @@
 import React from "react";
 import ShoppingCartRoundedIcon from "@material-ui/icons/ShoppingCartRounded";
 import SearchIcon from "@material-ui/icons/Search";
+import Logo from "./logo.png";
 function Header() {
   return (
     <nav className="nvbar">
       <div className="nv">
-        <div className="lgo"></div>
+        <img className="lgoimg" src={Logo} alt="img not found" />
+
         <ul className="desktop-navContent">
           <li>MEN</li>
           <li>WOMEN</li>
@@ -15,6 +17,7 @@ function Header() {
         </ul>
         <div className="search">
           <ShoppingCartRoundedIcon />
+          <input type="text" placeholder="Search.." />
           <SearchIcon />
         </div>
       </div>
