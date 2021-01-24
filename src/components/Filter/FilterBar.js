@@ -43,7 +43,7 @@ export default function FilterBar() {
           </ul>
         </nav>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/myntra/">
             <All />
           </Route>
           <Route exact path="/Men">
