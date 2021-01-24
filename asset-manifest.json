@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/myntra/static/css/main.0bee862d.chunk.css",
+    "main.js": "/myntra/static/js/main.6aa0e602.chunk.js",
+    "main.js.map": "/myntra/static/js/main.6aa0e602.chunk.js.map",
+    "runtime-main.js": "/myntra/static/js/runtime-main.d691c472.js",
+    "runtime-main.js.map": "/myntra/static/js/runtime-main.d691c472.js.map",
+    "static/js/2.56048f6c.chunk.js": "/myntra/static/js/2.56048f6c.chunk.js",
+    "static/js/2.56048f6c.chunk.js.map": "/myntra/static/js/2.56048f6c.chunk.js.map",
+    "static/js/3.f5ca1960.chunk.js": "/myntra/static/js/3.f5ca1960.chunk.js",
+    "static/js/3.f5ca1960.chunk.js.map": "/myntra/static/js/3.f5ca1960.chunk.js.map",
+    "index.html": "/myntra/index.html",
+    "static/css/main.0bee862d.chunk.css.map": "/myntra/static/css/main.0bee862d.chunk.css.map",
+    "static/js/2.56048f6c.chunk.js.LICENSE.txt": "/myntra/static/js/2.56048f6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d691c472.js",
+    "static/js/2.56048f6c.chunk.js",
+    "static/css/main.0bee862d.chunk.css",
+    "static/js/main.6aa0e602.chunk.js"
+  ]
+}
